@@ -6,12 +6,12 @@ from pathlib import Path
 from instagrapi import Client
 from instagrapi.exceptions import LoginRequired, ChallengeRequired
 
-INSTAGRAM_USERNAME = os.environ.get("INSTAGRAM_USERNAME")
-INSTAGRAM_PASSWORD = os.environ.get("INSTAGRAM_PASSWORD")
+INSTAGRAM_USERNAME = os.environ.get("n4nxr")
+INSTAGRAM_PASSWORD = os.environ.get("TAUHIDK944")
 WELCOME_MESSAGE = os.environ.get("WELCOME_MESSAGE", "Welcome to the group! 👋")
 VERIFICATION_CODE = os.environ.get("VERIFICATION_CODE", "")
 
-ADMIN_USERNAMES = ["toxic_devv_"]
+ADMIN_USERNAMES = ["n9bix"]
 
 SESSION_FILE = "session.json"
 KNOWN_MEMBERS_FILE = "known_members.json"
