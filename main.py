@@ -6,8 +6,8 @@ from pathlib import Path
 from instagrapi import Client
 from instagrapi.exceptions import LoginRequired, ChallengeRequired
 
-INSTAGRAM_USERNAME = os.environ.get("n4nxr")
-INSTAGRAM_PASSWORD = os.environ.get("TAUHIDK944")
+INSTAGRAM_USERNAME = os.environ.get("usernamebot")
+INSTAGRAM_PASSWORD = os.environ.get("passwordbot")
 WELCOME_MESSAGE = os.environ.get("WELCOME_MESSAGE", "Welcome to the group! 👋")
 VERIFICATION_CODE = os.environ.get("VERIFICATION_CODE", "")
 
