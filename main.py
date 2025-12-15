@@ -9,9 +9,9 @@ from instagrapi.exceptions import LoginRequired, ChallengeRequired
 INSTAGRAM_USERNAME = os.environ.get("usernamebot")
 INSTAGRAM_PASSWORD = os.environ.get("passwordbot")
 WELCOME_MESSAGE = os.environ.get("WELCOME_MESSAGE", "Welcome to the group! 👋")
-VERIFICATION_CODE = os.environ.get("VERIFICATION_CODE", "")
+VERIFICATION_CODE = os.environ.get("code", "")
 
-ADMIN_USERNAMES = ["n9bix"]
+ADMIN_USERNAMES = ["admin"]
 
 SESSION_FILE = "session.json"
 KNOWN_MEMBERS_FILE = "known_members.json"
