@@ -11,7 +11,7 @@ INSTAGRAM_PASSWORD = os.environ.get("passwordbot")
 WELCOME_MESSAGE = os.environ.get("WELCOME_MESSAGE", "Welcome to the group! 👋")
 VERIFICATION_CODE = os.environ.get("code", "")
 
-ADMIN_USERNAMES = ["admin"]
+ADMIN_USERNAMES = ["n9bix"]
 
 SESSION_FILE = "session.json"
 KNOWN_MEMBERS_FILE = "known_members.json"
