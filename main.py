@@ -5,9 +5,6 @@ import threading
 from pathlib import Path
 from instagrapi import Client
 from instagrapi.exceptions import LoginRequired, ChallengeRequired 
-from dotenv import load_dotenv
-
-load_dotenv()
 
 INSTAGRAM_USERNAME = ("n4nxr")
 INSTAGRAM_PASSWORD = ("TAUHIDK944")
